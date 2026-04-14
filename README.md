@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project evaluates regional and product-level profitability using the Superstore dataset. The analysis identifies drivers of margin erosion and estimates the directional impact of a pricing intervention (discount discipline).
+Built to practice diagnostic analytics and scenario modelling on a real business problem. This project evaluates regional and product-level profitability using the Superstore dataset, identifies drivers of margin erosion, and estimates the impact of a targeted pricing intervention.
 
 ## Key Findings
 
@@ -16,11 +16,22 @@ This project evaluates regional and product-level profitability using the Supers
 
 - `Superstore Sales project.ipynb` — Full analysis (cleaning, benchmarking, diagnostics, scenario modeling)
 - `Superstore_Sales_Performance_Diagnostic.pdf` — Executive slide deck (no code)
-- `.png` files — Exported charts used in the deck
+- Charts exported from the notebook and embedded in the slide deck
 
 ## Tools Used
 
-Python (pandas, matplotlib)
+Python · pandas · matplotlib
+
+## How to Run
+
+```bash
+pip install pandas matplotlib
+jupyter notebook "Superstore Sales project.ipynb"
+```
+
+## Dataset
+
+[Superstore Sales Dataset — Kaggle](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
 
 ## Notes / Assumptions
 
